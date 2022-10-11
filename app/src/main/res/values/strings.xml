@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">BellApp</string>
+    <string name="app_name">Guidomia</string>
+
+    <string name="car_model_label">Car Model</string>
+    <string name="car_price_label">Price: %sk</string>
+
 </resources>
