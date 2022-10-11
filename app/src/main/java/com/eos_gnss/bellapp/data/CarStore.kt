@@ -1,4 +1,4 @@
-package com.eos_gnss.bellapp
+package com.eos_gnss.bellapp.data
 
 interface CarStore {
 

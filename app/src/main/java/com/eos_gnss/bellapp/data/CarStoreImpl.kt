@@ -1,7 +1,8 @@
-package com.eos_gnss.bellapp
+package com.eos_gnss.bellapp.data
 
 import android.content.Context
 import android.content.res.AssetManager
+import com.eos_gnss.bellapp.R
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import java.util.*

@@ -1,4 +1,4 @@
-package com.eos_gnss.bellapp
+package com.eos_gnss.bellapp.data
 
 
 data class Car(
@@ -8,6 +8,6 @@ data class Car(
     val marketPrice: Double,
     val model: String,
     val prosList: List<String>,
-    val rating: Int,
+    val rating: Float,
     val imageUrl: Int
 )

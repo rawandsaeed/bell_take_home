@@ -1,6 +1,8 @@
 package com.eos_gnss.bellapp
 
 import android.app.Application
+import com.eos_gnss.bellapp.data.CarStore
+import com.eos_gnss.bellapp.data.CarStoreImpl
 
 class Application: Application() {
 
