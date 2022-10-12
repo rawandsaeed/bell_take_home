@@ -3,16 +3,28 @@ package com.eos_gnss.bellapp
 import android.app.Application
 import com.eos_gnss.bellapp.data.CarStore
 import com.eos_gnss.bellapp.data.CarStoreImpl
+import com.eos_gnss.bellapp.module.repositories
+import com.eos_gnss.bellapp.module.viewModels
+import org.koin.android.ext.koin.androidContext
+import org.koin.core.context.startKoin
 
 class Application: Application() {
 
-    private var carStore: CarStore? = null
+    override fun onCreate() {
+        super.onCreate()
+        initializeKoin()
+    }
 
-    fun getCarStore(): CarStore? {
-        if(carStore == null) {
-            carStore = CarStoreImpl(applicationContext)
+    private fun initializeKoin() {
+        startKoin {
+            androidContext(applicationContext)
+            modules(
+                listOf(
+                    viewModels,
+                    repositories
+                )
+            )
         }
-        return carStore
     }
 
 }

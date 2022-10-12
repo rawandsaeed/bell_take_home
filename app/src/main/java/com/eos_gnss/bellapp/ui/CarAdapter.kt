@@ -39,10 +39,10 @@ class CarAdapter(
 
     inner class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {
 
-        private val carImageView: ImageView = itemView.findViewById(R.id.car_image_view)
-        private val carModelTextView: AppCompatTextView = itemView.findViewById(R.id.car_model)
-        private val carPriceTextView: AppCompatTextView = itemView.findViewById(R.id.car_price)
-        private val carStarRating: AppCompatRatingBar = itemView.findViewById(R.id.car_rating_star)
+        private val carImageView: ImageView = itemView.findViewById(R.id.img_item_car_image_view)
+        private val carModelTextView: AppCompatTextView = itemView.findViewById(R.id.tv_item_car_model)
+        private val carPriceTextView: AppCompatTextView = itemView.findViewById(R.id.tv_item_car_price)
+        private val carStarRating: AppCompatRatingBar = itemView.findViewById(R.id.rb_car_rating_star)
 
         fun bind(model: Car) {
             carImageView.setImageResource(model.imageUrl)

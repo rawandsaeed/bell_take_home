@@ -48,6 +48,9 @@ class CarStoreImpl(private val applicationContext: Context): CarStore {
 
 }
 
+/*
+* An extension function to read the file from AssetManager class
+* */
 fun AssetManager.readFile(fileName: String) = open(fileName)
     .bufferedReader()
     .use {

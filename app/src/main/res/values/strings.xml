@@ -3,5 +3,6 @@
 
     <string name="car_model_label">Car Model</string>
     <string name="car_price_label">Price: %sk</string>
+    <string name="homefragment_error_message">Error accessing the json file</string>
 
 </resources>
