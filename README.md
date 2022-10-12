@@ -14,9 +14,8 @@ Import the project to Android Studio and wait until it resolved all the packages
 
 ### App Demo 
 
-<img src="./art/home_screenshot.png" style="zoom:30%;" />
+<img src="./art/home_screenshot.png" style="zoom:10%;" />
 
-art/home_screenshot.png
 
 ## Tech Stack & Open Source Libraries
 
